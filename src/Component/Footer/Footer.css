@@ -1,0 +1,34 @@
+.image-names{
+    background: linear-gradient(180deg, #003B60 0%, rgba(14, 22, 31, 0.00) 52.08%, rgba(14, 22, 31, 0.96) 100%), url("/src/assets/image/Mask.png") no-repeat center center;
+
+    background: cover;
+    width: 100%;
+    height:300px;
+}
+
+.containerd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  
+}
+
+.g-icn{
+  margin-right: 10px;
+}
+
+.praghp-bg{
+    background-color: #003B60;
+   text-align: center;
+   color: #fff;
+   font-weight: 400;
+   font-size: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.texthcolor{
+    color: #FFE663;
+}
+

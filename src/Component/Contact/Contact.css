@@ -1,0 +1,133 @@
+.imgse{
+    border-radius: 50%;
+    width: 80px;
+    margin-left: 36%;
+    margin-top: -40px;
+}
+.bg-colores{
+         background-color: #f0f9ff;
+         padding-top: 250px;
+         margin-top: -200px;
+         color: #003b60;
+       
+}
+
+.bgrong{
+    background-color: #003b60;
+}
+
+.carded {
+    /* background-color: #fff; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    grid-gap: 10px;
+    max-width: 1000px;
+    /* margin:50px; */
+    margin: 0 auto;
+    /* align-items: center; */
+    /* position: relative; */
+}
+.cardm {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    justify-content:center;
+    margin: 0 auto;
+    /* align-items: center; */
+    /* position: relative; */
+    background-color: #fff;
+    width: 300px;
+    margin-top: 15%;
+}
+.cardme{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    justify-content:center;
+    margin: 0 auto;
+    /* align-items: center; */
+    /* position: relative; */
+    background-color: #003b60;
+    width: 300px;
+    margin-top: 15%;
+}
+
+.textra{
+    justify-content:center;
+    margin: 0 auto;
+    padding-right: 14px;
+    padding-left: 14px;
+    margin-bottom: 10px;
+    /* margin-left: 30%; */
+}
+.textras{
+  
+   
+    margin-bottom: 10px;
+    margin-left: 30%;
+    
+}
+.textmss{
+  
+    color: #fff;
+    margin-bottom: 10px;
+    margin-left: 35%;
+    
+}
+.textmses{
+  
+    color: #fff;
+    margin-bottom: 10px;
+    margin-left: 27%;
+    
+}
+.txtsa{
+  
+    color: #fff;
+    justify-content:center;
+    margin: 0 auto;
+    padding-right: 14px;
+    padding-left: 14px;
+    margin-bottom: 10px;
+    
+}
+.justifis{
+    justify-items: center;
+    text-align: center;
+    margin-top: 20px;
+   padding-bottom: 20px;
+}
+.textrase{
+      color: #fff;
+}
+
+.icn {
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-left: 10px;
+  }
+.icns {
+    background-color: #003b60;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-left: 10px;
+    color: #fff;
+  }
+
+.textrs{
+    margin-left: 35%;
+    margin-bottom: 10px;
+}
+
+.textme{
+    color: #fff;
+    margin-left: 30%;
+    margin-bottom: 10px;
+}
+   

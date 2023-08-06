@@ -1,0 +1,140 @@
+.banner__section {
+    background-image: url("/src/assets/image/bg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+   width: 100%;
+   height: auto;
+   
+}
+
+
+
+.banner__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+   
+}
+
+.banner__image img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* TEXT DESIGN PART */
+
+.banner-h1 {
+    color: #003b60;
+    font-size: 45px;
+    margin-bottom: 15px;
+    font-family: 'Li Ador Noirrit', sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.text-sizing{
+    font-size:40px;
+    color: #012A4A;
+}
+.simple-color{
+    color:#608AAB;
+    padding-bottom: 20px;
+}
+.mx{
+    margin-left: 30px;
+}
+
+.hero-text{
+    width: 250px;
+    height: 50px;
+    background-color: #012A4A;
+    color: #fff;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.text-design{
+    font-size: 20px;
+   
+    
+}
+
+.pd-top{
+    margin-top: 10px;
+}
+.text-part {
+    /* text-align: center; */
+    max-width: 1000px;
+    margin: auto;
+    color: #003b60;
+    /* font-family:Li Ador Noirrit; */
+    /* font-weight: 500; */
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 20px;
+
+    /* margin-left: 20%; */
+}
+
+.font-size{
+    color: #012A4A;
+font-size: 20px;
+font-style: normal;
+
+line-height: normal;
+}
+
+.icon{
+   padding-top: 6px;
+}
+.btn{
+    width: 150px;
+    height: 48px;
+    background-color: #f0e615;
+    margin: 0 auto;
+    text-align: center;
+    color: #012A4A;
+    border: none;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+   
+}
+@media (max-width: 1267px) {
+    .banner__image img {
+        width: 70%;
+    }
+}
+@media (max-width: 1028px) {
+    .banner__image img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 980px) {
+    .banner__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (max-width: 980px) {
+    .banner__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 320px){
+    .banner__section {
+        /* background-image: url("/src/assets/image/bg.png"); */
+        background-repeat: no-repeat;
+        background-size:cover;
+       width: 100%;
+       height: auto;
+       
+    }
+    }
